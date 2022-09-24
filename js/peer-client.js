@@ -3,8 +3,8 @@ peerapp = (function () {
 
   console.log('Peer client started')
 
-  var PEER_SERVER = 'https://voip-but-low-band-width.herokuapp.com/'
-  var PORT = 443
+  var PEER_SERVER = 'https://voip-server.alvisk.repl.co'
+  var PORT = 9000
   var connectedPeers = {}
   var myPeerID = generateRandomID(4)
   var peer
