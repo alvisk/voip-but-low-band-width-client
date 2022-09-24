@@ -3,7 +3,7 @@ peerapp = (function () {
 
   console.log('Peer client started')
 
-  var PEER_SERVER = 'http://voip-server.alvisk.repl.co'
+  var PEER_SERVER = 'voip-server.alvisk.repl.co'
   var PORT = 9000
   var connectedPeers = {}
   var myPeerID = generateRandomID(4)
